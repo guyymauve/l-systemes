@@ -1,0 +1,26 @@
+Caractere(F = FORWARD(0))
+Caractere(G = FORWARD(0))
+
+Regle(R1 = F->F-G+F+G-F)
+Regle(R2 = G->GG)
+
+LSysteme(Lindenmayer)
+{
+	Alphabet = [F, G]
+	Axiome = F-G-G
+	Regles = [R1, R2]
+	Pas = 5
+	Angle = 120
+}
+
+Generer(Lindenmayer)
+{
+	N = 6
+}
+
+
+
+
+
+
+

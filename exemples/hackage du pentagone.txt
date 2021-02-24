@@ -1,0 +1,20 @@
+Caractere(A = FORWARD(100))
+
+Regle(R1 = A->A+A+A+A+A)
+
+LSysteme(Hackage)
+{
+	Alphabet = [A]
+	Axiome = A
+	Regles = [R1]
+	Pas = 10
+	Angle = 72
+}
+
+Generer(Hackage)
+{
+	N = 2
+}
+
+
+

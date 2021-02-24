@@ -1,0 +1,28 @@
+Caractere(A = FORWARD(10))
+Caractere(F = FORWARD(20))
+
+Regle(S = A->F[++A][--A]-FA)
+Regle(R = F->FF)
+
+LSysteme(Camille)
+{
+	Alphabet = [A, F]
+	Axiome = A
+	Regles = [S, R]
+	Pas = 20
+	Angle = 30
+}
+
+Generer(Camille)
+{
+	N = 5
+	Position = GAUCHE, 0
+}
+
+
+
+
+
+
+
+

@@ -1,0 +1,30 @@
+Caractere(F = FORWARD(0))
+Caractere(G = FORWARD(0))
+
+Regle(R1 = F->F-G+F+G-F)
+Regle(R2 = G->GG)
+
+LSysteme(Sierpinski)
+{
+	Alphabet = [F, G]
+	Axiome = F-G-G
+	Regles = [R1, R2]
+	Pas = 5
+	Angle = 120
+}
+
+Generer(Sierpinski)
+{
+	N = 8
+	Position = HAUT, 20
+	Position = GAUCHE, 20
+}
+
+
+
+
+
+
+
+
+

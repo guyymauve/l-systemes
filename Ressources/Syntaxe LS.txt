@@ -1,0 +1,58 @@
+Caractere(A = FORWARD(10))
+Caractere(B = RIGHT(f1))
+A.afficher()
+
+Regle(R1 = A->A+B)
+R1.afficher()
+
+LSysteme(Pythagore)
+{
+	Alphabet = [A, B]
+	Axiome = ABA
+	Regles = [R1, R2]
+	Pas = 10
+	Angle = 25
+}
+
+Pythagore.nouveauCaractere(A)
+Pythagore.nouvelAxiome(BAB)
+Pythagore.nouvelleRegle(R3)
+Pythagore.nouveauPas(100)
+Pythagore.nouvelAngle(30)
+Pythagore.afficher()
+
+Generer(Pythagore)
+{
+	N = 10
+	Position = GAUCHE, 100
+	Position = BAS, 100    
+}
+
+Fonction(f = 3n-8)
+Fonction(g = -2n+4)
+
+____________________________________________
+
+A = Caractere("A", FORWARD, 10, 0)
+B = Caractere("B", RIGHT, 0, f1)
+A.afficher()
+
+R1 = Regle(A, [A, PLUS, B])
+R1.afficher()
+
+Pythagore = LSysteme([A, B], [A, B, A], [R1, R2], 10, 25)
+
+Pythagore.nouveauCaractere(A)
+Pythagore.nouvelAxiome([B, A, B])
+Pythagore.nouvelleRegle(R3)
+Pythagore.nouveauPas(100)
+Pythagore.nouvelAngle(30)
+Pythagore.afficher()
+
+Pythagore.generer(10)
+Pythagore.position(GAUCHE, 100)
+Pythagore.position(BAS, 100)
+Pythagore.produire()
+
+f = Fonction(3, -8)
+g = Fonction(-2, 4)

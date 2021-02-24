@@ -1,0 +1,29 @@
+Caractere(F = FORWARD(0))
+Caractere(X = NUL(0))
+Caractere(Y = NUL(0))
+
+Regle(R = X->X+YF+)
+Regle(S = Y->-FX-Y)
+
+LSysteme(Dragon)
+{
+	Alphabet = [X, Y, F]
+	Axiome = FX
+	Regles = [R, S]
+	Pas = 2
+	Angle = 90
+}
+
+Generer(Dragon)
+{
+	N = 11
+}
+
+
+
+
+
+
+
+
+
