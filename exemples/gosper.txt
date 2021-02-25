@@ -1,0 +1,21 @@
+Caractere(A = FORWARD(0))
+Caractere(B = FORWARD(0))
+
+Regle(R1 = A->A-B--B+A++AA+B-)
+Regle(R2 = B->+A-BB--B-A++A+B)
+
+LSysteme(Gosper)
+{
+	Alphabet = [A, B]
+	Axiome = A
+	Regles = [R1, R2]
+	Pas = 5
+	Angle = 60
+}
+
+Generer(Gosper)
+{
+	N = 4
+	Position = HAUT, 100
+}
+

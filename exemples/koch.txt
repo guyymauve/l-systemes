@@ -1,0 +1,19 @@
+Caractere(A = FORWARD(0))
+
+Regle(R1 = A->A-A++A-A)
+
+LSysteme(Koch)
+{
+	Alphabet = [A]
+	Axiome = A++A++A
+	Regles = [R1]
+	Pas = 2
+	Angle = 60
+}
+
+Generer(Koch)
+{
+	N = 5
+	Position = GAUCHE, 500
+}
+

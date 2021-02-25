@@ -3,7 +3,7 @@ Projet d'info implémentant un langage pour tracer des L-Systèmes en Python.
 ## Installation
 Clonez le dépôt GitHub et lancez programme.py
 ## Utilisation
-Ecrivez le code dans l'éditeur de texte au milieu. Les boutons sur la gauche de l'écran servent à écrire les squelettes des fonctions principales. Pour lancer le programme, il faut l'interpréter et l'éxecuter, avec l'aide des 3 boutons en haut à droite de la fenêtre (interpréter, lancer, interpréter et lancer).
+Ecrivez le code dans l'éditeur de texte au milieu. Les boutons sur la gauche de l'écran servent à écrire les squelettes des fonctions principales. Pour lancer le programme, il faut l'interpréter et l'éxecuter, avec l'aide des 3 boutons en haut à droite de la fenêtre (interpréter, lancer, interpréter et lancer). ** Il faut d'abord sauvegarder le programme avant de le compiler, en appuyant sur la disquette**
 ## Syntaxe
 Plusieurs exemples de syntaxe sont fournis dans le dossier exemples pour mieux comprendre la syntaxe.
 

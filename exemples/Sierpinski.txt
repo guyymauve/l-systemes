@@ -18,3 +18,5 @@ Generer(Sierpinski)
 	N = 8
 }
 
+
+
