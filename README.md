@@ -37,8 +37,8 @@ Regle(<nom> = <caractere>-><caracteres>)
 * nom : nom de la règle (string)
 * caractere: un caractère déjà défini
 * caracteres : une suite de caractères et de constantes. Les constantes ont comme les caractères des propriétés interprétées par la tortue mais ne peuvent pas évoluer selon des règles. Les constantes possibles sont :
-    * + (équivalent de LEFT)
-    * - (équivalent de RIGHT)
+    * \+ (équivalent de LEFT)
+    * \- (équivalent de RIGHT)
     * | (équivalent de ROLL)
     * [ (équivalent de SAVE)
     * ] (équivalent de LOAD)
