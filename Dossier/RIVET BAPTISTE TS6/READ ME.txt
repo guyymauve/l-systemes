@@ -1,1 +1,0 @@
-Pour lancer le programme, lancez le fichier prog\programme.py

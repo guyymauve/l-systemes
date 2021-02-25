@@ -1,2 +1,0 @@
-def nomFichier():
-	return ".txt"
