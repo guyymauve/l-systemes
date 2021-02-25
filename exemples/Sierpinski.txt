@@ -16,15 +16,5 @@ LSysteme(Sierpinski)
 Generer(Sierpinski)
 {
 	N = 8
-	Position = HAUT, 20
-	Position = GAUCHE, 20
 }
-
-
-
-
-
-
-
-
 

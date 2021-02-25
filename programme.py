@@ -132,15 +132,15 @@ def addRegle():
 fenetre = Tk() #Fenetre principale (la fenetre Windows)
 
 #----Def Icones Barre D'Outils----
-photoRun = PhotoImage(file="run.gif") #Executer
-photoBuild = PhotoImage(file="build.gif") #Compiler
-photoBuildAndRun = PhotoImage(file="buildAndRun.gif") #Compiler et Executer
-photoFileNew = PhotoImage(file="filenew.gif") #Nouveau
-photoFileOpen = PhotoImage(file="fileopen.gif") #Ouvrir
-photoFileSave = PhotoImage(file="filesave.gif") #Enregistrer
-photoFileSaveAll = PhotoImage(file="filesaveall.gif") #Enregistrer Sous
-photoUndo = PhotoImage(file="undo.gif") #Annuler (Ctrl+Z)
-photoRedo = PhotoImage(file="redo.gif") #Revenir (Ctrl+Y)
+photoRun = PhotoImage(file="./gif/run.gif") #Executer
+photoBuild = PhotoImage(file="./gif/build.gif") #Compiler
+photoBuildAndRun = PhotoImage(file="./gif/buildAndRun.gif") #Compiler et Executer
+photoFileNew = PhotoImage(file="./gif/filenew.gif") #Nouveau
+photoFileOpen = PhotoImage(file="./gif/fileopen.gif") #Ouvrir
+photoFileSave = PhotoImage(file="./gif/filesave.gif") #Enregistrer
+photoFileSaveAll = PhotoImage(file="./gif/filesaveall.gif") #Enregistrer Sous
+photoUndo = PhotoImage(file="./gif/undo.gif") #Annuler (Ctrl+Z)
+photoRedo = PhotoImage(file="./gif/redo.gif") #Revenir (Ctrl+Y)
 #---------------------------------
 
 
