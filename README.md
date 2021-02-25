@@ -12,17 +12,17 @@ Permet de créer un nouveau caractère à ajouter à l'alphabet du L-Système et
 ```
 Caractere(<lettre> = <instruction>(<valeur>))
 ```
-*lettre : une lettre majuscule représentant le caractère
-*instruction : une instruction parmis les suivantes :
-**NUL : pas d'action
-**FORWARD : avance
-**BACKWARD : recul
-**LEFT : tourne à gauche
-**RIGHT : tourne à droite
-**ROLL : tourne de 180°
-**SAVE : sauvegarde la postion actuelle et la place en haut de la pile de suavegardes
-**LOAD : revient à la dernière position sauvegardée et la dépile
-*valeur : pour FORWARD, BACKWARD, LEFT et RIGHT, cela permet de rentre la valeur du pas de la tortue, soit en pixels pour les translations, soit en angle pour les rotations. Si elle vaut 0, le pas/angle de base du L-Système sera utilisé.
+* lettre : une lettre majuscule représentant le caractère
+* instruction : une instruction parmis les suivantes :
+    * NUL : pas d'action
+    * FORWARD : avance
+    * BACKWARD : recul
+    * LEFT : tourne à gauche
+    * RIGHT : tourne à droite
+    * ROLL : tourne de 180°
+    * SAVE : sauvegarde la postion actuelle et la place en haut de la pile de suavegardes
+    * LOAD : revient à la dernière position sauvegardée et la dépile
+* valeur : pour FORWARD, BACKWARD, LEFT et RIGHT, cela permet de rentre la valeur du pas de la tortue, soit en pixels pour les translations, soit en angle pour les rotations. Si elle vaut 0, le pas/angle de base du L-Système sera utilisé.
 
 ex: On définit A qui s'interpréte comme "tourner à droite de 30°
 ```
@@ -34,14 +34,14 @@ Permet de créer une règle d'évolution du caractère.
 ```
 Regle(<nom> = <caractere>-><caracteres>)
 ```
-*nom : nom de la règle (string)
-*caractere: un caractère déjà défini
-*caracteres : une suite de caractères et de constantes. Les constantes ont comme les caractères des propriétés interprétées par la tortue mais ne peuvent pas évoluer selon des règles. Les constantes possibles sont :
-**+ (équivalent de LEFT)
-**- (équivalent de RIGHT)
-**| (équivalent de ROLL)
-**[ (équivalent de SAVE)
-**] (équivalent de LOAD)
+* nom : nom de la règle (string)
+* caractere: un caractère déjà défini
+* caracteres : une suite de caractères et de constantes. Les constantes ont comme les caractères des propriétés interprétées par la tortue mais ne peuvent pas évoluer selon des règles. Les constantes possibles sont :
+    * + (équivalent de LEFT)
+    * - (équivalent de RIGHT)
+    * | (équivalent de ROLL)
+    * [ (équivalent de SAVE)
+    * ] (équivalent de LOAD)
 
 ex: On définit la règle R1 qui dit que A se transforme en A+B-A
 ```
@@ -61,12 +61,12 @@ LSysteme(<nom>)
 	Angle = <angle>
 }
 ```
-*nom : nom du L-Sytème
-*alphabet : tableau de caractères
-*axiome : chaîne de caractères/constantes qui est le L-Sytème à l'itération 0
-*regles : tableau de regles
-*pas : pas par défaut de la tortue en pixels
-*angles : angle par défaut de la tortue en degrés
+* nom : nom du L-Sytème
+* alphabet : tableau de caractères
+* axiome : chaîne de caractères/constantes qui est le L-Sytème à l'itération 0
+* regles : tableau de regles
+* pas : pas par défaut de la tortue en pixels
+* angles : angle par défaut de la tortue en degrés
 
 ex : Triangle de Sierpinski
 ```
@@ -96,10 +96,10 @@ Generer(<nom>)
     [Position = <pos>]
 }
 ```
-*nom : nom du L-Système à générer
-*n : nombre d'itérations
+* nom : nom du L-Système à générer
+* n : nombre d'itérations
 Arguments facultatifs :
-*pos : indique où la tortue doit démarrer son chemin. Par exemple, "HAUT, 20" la fait démarrer à 20 pixels du haut de l'écran
+* pos : indique où la tortue doit démarrer son chemin. Par exemple, "HAUT, 20" la fait démarrer à 20 pixels du haut de l'écran
 
 ex:
 ```
